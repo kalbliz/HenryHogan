@@ -573,7 +573,7 @@ section {
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
-  position: fixed;
+  position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
