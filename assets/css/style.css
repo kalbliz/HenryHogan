@@ -443,6 +443,7 @@ section {
   height: 50px;
   display: block;
   background: none;
+  font-size: 1em;
 }
 
 .skills .progress .skill {
@@ -453,6 +454,7 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
+  
 }
 
 .skills .progress .skill .val {
@@ -1086,7 +1088,12 @@ section {
 .portfolio-details .portfolio-info {
   padding-top: 45px;
 }
-
+.portfolio-details .portfolio-details-carousel .portfolio-details-img {
+  height: fit-content;
+  max-height: fit-content;
+  width: fit-content;
+  max-width: fit-content;
+}
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 400;
